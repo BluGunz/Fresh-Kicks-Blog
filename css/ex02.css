@@ -1,0 +1,54 @@
+
+.item4-Retailers {
+
+    grid-column: 6 / span 1;
+    grid-row: 2 / span 2;
+    
+}
+
+.retail {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    padding: 0;
+    border-radius: 8px;
+    width: 120px;
+    height: 110px;
+
+}
+
+.tailer {
+    margin: 3% auto;
+    padding: 0 0 5px 5px;
+    font-style: italic;
+}
+
+.item5-Footer {
+    grid-column: 1 / span 6;
+    grid-row: 4;
+
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.flex-container > div {
+
+    width: 250px;
+    margin: 10px;
+    background-color: #e7410fcb;
+
+}
+
+.COG {
+    border-radius: 8px;
+    width: 140px;
+    height: 130px;
+}
+
+.Stext {
+    font-size: 14px;
+}

@@ -1,0 +1,136 @@
+@import url("ex01.css");
+@import url("ex02.css");
+@import url("ex03.css");
+
+
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'menu main main main right right'
+    'menu footer footer footer footer footer ';
+  grid-gap: 0px;
+  background-color: #e7410fa8;
+  text-align: center;
+  padding: 10px;
+  height: auto;
+}
+
+
+.grid-container > div {
+  background-color: #e0dddd;
+
+  padding: 20px 0;
+  
+}
+
+.item1-Header {
+  grid-column: 2 / span 5;
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;
+  height: auto;
+  text-align: center;
+
+}
+
+h2 {
+  margin: 20px auto;
+  padding: 0;
+  font-family: 'Special Elite', cursive;
+}
+
+.subtitle {
+  font-size: 1.3rem;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-style: italic;
+  font-weight: 400;
+  text-align: center;
+  background-color: #07031A;
+  color: aliceblue;
+  font-family: 'Mali', cursive;
+
+}
+hr {
+  border: 1px solid #e7410fcb;
+}
+
+p {
+  font-family: 'Khula', sans-serif;
+  margin: 5px;
+}
+
+.last {
+  margin: auto;
+  padding: 20px;
+}
+
+.item2-Menu {
+  grid-column: 1;
+  grid-row: 1 / span 1;
+  height: auto;
+
+}
+
+.iconz {
+  background-color: #000000;
+  border-radius: 12px;
+}
+
+
+
+.fa-globe {
+  color: #288b09cb;
+  margin: 0 10px 20px 15px;
+
+}
+
+.fa-cloud-sun {
+  margin: 0 10px 15px 15px;
+  color: #8b1d09cb;
+
+}
+
+.fa-soap {
+  margin: 0 10px 0 15px;
+  color: #8c209bcb;
+
+}
+
+.fa-blog {
+  margin: 15px 10px 15px 15px;
+  color: #a08018cb;
+}
+
+.side {
+  text-align: right;
+}
+
+.item3-Main {
+  grid-column: 1 / span 5;
+  grid-row: 2 / span 2;
+ 
+}
+
+.daily {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.red-shoes {
+  border-radius: 8px;
+  float: left;
+  margin: 0 0 0 25px;
+  width: 210px;
+  height: 190px;
+}
+
+.white-shoes {
+  border-radius: 8px;
+  float: right;
+  margin: 0 25px 0 0;
+  width: 210px;
+  height: 190px;
+}
