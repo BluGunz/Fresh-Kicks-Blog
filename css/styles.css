@@ -53,7 +53,7 @@ h2 {
   text-align: center;
   background-color: #07031A;
   color: aliceblue;
-  font-family: 'Mali', cursive;
+  font-family: 'Mali', sans-serif;
 
 }
 hr {
@@ -78,7 +78,7 @@ p {
 }
 
 .iconz {
-  background-color: #000000;
+  
   border-radius: 12px;
 }
 
