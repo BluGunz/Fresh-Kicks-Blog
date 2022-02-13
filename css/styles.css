@@ -125,7 +125,6 @@ p {
 .red-shoes {
   border-radius: 8px;
   float: left;
-  margin: 0 0 0 25px;
   width: 210px;
   height: 190px;
 }
@@ -133,7 +132,6 @@ p {
 .white-shoes {
   border-radius: 8px;
   float: right;
-  margin: 0 25px 0 0;
   width: 210px;
   height: 190px;
 }
